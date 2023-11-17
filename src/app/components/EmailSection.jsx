@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import Whatsappicon from "../../../public/Whatsapp-icon.svg"
 import Link from "next/link";
 import Image from "next/image";
 
@@ -56,11 +57,14 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/Harikrishnancodes">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/harikrishnan-h-298127282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+          <Link href="https://wa.me/9074064114">
+            <Image src={Whatsappicon} alt="whatsapp  Icon" />
           </Link>
         </div>
       </div>
